@@ -1,0 +1,5 @@
+IP: 158.160.76.194;
+name_taski: https://taskizebra99991.zapto.org/;
+name_kittygram: https://kittygramzebra.servehttp.com/;
+login: admin;
+password: prazdnik9999;
