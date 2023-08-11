@@ -14,11 +14,11 @@ gunicorn
 В проекте infra_sprint1 можно добавлять фото и достижения любимых пушистых хвостиков, а так же просматривать котиков других пользователей.
 
 ## Установка и запуск:
-- Клонируйте репозитоий
+- Клонируйте репозитоий:
 ```
 git clone https://github.com/ZebraHr/infra_sprint1.git
 ```
-- Перейдите в папку проекта
+- Перейдите в папку проекта:
 ```
 cd infra_sprint1
 ```
@@ -101,7 +101,7 @@ python manage.py collectstatic
 - Скопируйте директорию static_backend/ в директорию /var/www/kittygram/
 ```
 sudo cp -r /home/yc-user/infra_sprint1/backend/static_backend/ /var/www/kittigram/
-sudo systemctl restart gunicorn 
+sudo systemctl restart gunicorn_kittygram
 ```
 #### Установка и настройка Nginx:
 - Запустите сборку frontend приложения:

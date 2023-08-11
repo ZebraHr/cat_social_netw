@@ -15,8 +15,6 @@ server {
         try_files $uri /index.html;
     }
 
-
-
     listen 443 ssl; # managed by Certbot
     ssl_certificate /etc/letsencrypt/live/taskizebra99991.zapto.org/fullchain.pem; # managed by Certbot
     ssl_certificate_key /etc/letsencrypt/live/taskizebra99991.zapto.org/privkey.pem; # managed by Certbot
@@ -24,17 +22,15 @@ server {
     ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
 
 }
+
 server {
     if ($host = taskizebra99991.zapto.org) {
         return 301 https://$host$request_uri;
     } # managed by Certbot
 
-
-
     listen 80;
     server_name 158.160.76.194 taskizebra99991.zapto.org;
     return 404; # managed by Certbot
-
 
 }
 
@@ -61,7 +57,6 @@ server {
         try_files $uri /index.html;
     }
 
-
     listen 443 ssl; # managed by Certbot
     ssl_certificate /etc/letsencrypt/live/kittygramzebra.servehttp.com/fullchain.pem; # managed by Certbot
     ssl_certificate_key /etc/letsencrypt/live/kittygramzebra.servehttp.com/privkey.pem; # managed by Certbot
@@ -70,13 +65,10 @@ server {
 
 }
 
-
 server {
     if ($host = kittygramzebra.servehttp.com) {
         return 301 https://$host$request_uri;
     } # managed by Certbot
-
-
 
     listen 80;
     server_name 158.160.76.194 kittygramzebra.servehttp.com;
