@@ -4,11 +4,11 @@
 
 
 ## Технологии:
-Python 3.9
-Django 3.2.3
-djangorestframework 3.12.4
-Nginx
-gunicorn
+[![Python](https://img.shields.io/badge/python-3.9-blue?logo=python)](https://www.python.org/)
+![Django](https://img.shields.io/badge/DJANGO-3.2.3-darkgreen?logo=django&logoColor=white)
+![Gunicorn](https://img.shields.io/badge/GUNICORN-blue?logo=gunicorn&logoColor=green)
+![djangorestframework](https://img.shields.io/badge/DJANGORESTFRAMEWORK-3.12.14-blue?logo=django&logoColor=white)
+![Nginx](https://img.shields.io/badge/NGINX-269539.svg?&style=flat&logo=nginx&logoColor=white)
 
 ## Описание работы:
 В проекте infra_sprint1 можно добавлять фото и достижения любимых пушистых хвостиков, а так же просматривать котиков других пользователей.
@@ -159,7 +159,4 @@ sudo certbot --nginx
 ### Автор
 Анна Победоносцева
 
-Студент Яндекс Практикума ["Python-разаботчик плюс"](https://practicum.yandex.ru/python-developer-plus/?from=catalog)
-
-GitHub:
-(https://github.com/ZebraHr)
+[GitHub](https://github.com/ZebraHr)
